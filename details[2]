@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>AccountManagerModernization</title>
+  <base href="/my-account/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <script src="https://accounts.google.com/gsi/client"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" defer></script>
+  <script type="text/javascript" defer>
+    !function(e,t,n,i){function o(){return t.getElementsByTagName("head")[0]}!function(e,n,i){if(e){var o=t.createElement("style");o.id=n,o.innerHTML=i,e.appendChild(o)}}(o(),"at-body-style","body {opacity: 0 !important}"),setTimeout(function(){!function(e,n){if(e){var i=t.getElementById(n);i&&e.removeChild(i)}}(o(),"at-body-style")},1500)}(window,document);
+  </script>
+  
+  <script src="webcomponents/webcomponents-loader.js" defer></script>
+  <script src="webcomponents/webcomponents-bundle.js" defer></script>
+  <script src="webcomponents/custom-elements-es5-adapter.js" defer></script>
+  <script type="module" src="./assets/js/ctb-widget.js" defer></script>
+<link rel="stylesheet" href="styles.194a9f83ef6d95c18e9a.css"></head>
+
+<body class="mat-typography">
+  <app-account-manager-root></app-account-manager-root>
+<script src="runtime.5ebbc5cb4db5c674e2c2.js" defer></script><script src="polyfills.90ad8d369941b5a77402.js" defer></script><script src="scripts.84ac5deaf02fe9e08a0d.js" defer></script><script src="main.dbb21d528b2b9834ac27.js" defer></script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8a3918394af72135',t:'MTcyMTAzOTYxMC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>
